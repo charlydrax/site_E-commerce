@@ -1,0 +1,97 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* color: #F9F871; */
+}
+/* header{
+    background:#000;
+    padding: 10px;
+} */
+h1{
+    text-align: center;
+    color: #fff;
+}
+nav{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+#legend{
+    background: #000;
+    color: #fff;
+}
+#panier{
+    padding: 20px;
+    background: #fff;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 20px 2px black;
+    border: 3px solid white;
+}
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+#prix{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+}
+h3{
+    font-size:25px;
+}
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
